@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Nop Commerce Suit]">
+  <test thread-count="5" name="Nop Commerce Tests(failed)">
+    <groups>
+      <run>
+        <include name="ALL"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="tests.CurrencyTests">
+        <methods>
+          <include name="initPages"/>
+          <include name="cleanUp"/>
+          <include name="currencyEuroTest" invocation-numbers="0"/>
+          <include name="initTests"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CurrencyTests -->
+      <class name="tests.CheckoutTests">
+        <methods>
+          <include name="cashTest" invocation-numbers="0"/>
+          <include name="initPages"/>
+          <include name="cleanUp"/>
+          <include name="initTests"/>
+          <include name="creditTest" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.CheckoutTests -->
+      <class name="tests.WishlistTests">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="AddShoppingCartTest" invocation-numbers="0"/>
+          <include name="initTests"/>
+          <include name="initPages"/>
+          <include name="tearDown"/>
+          <include name="removeWishListTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.WishlistTests -->
+      <class name="tests.ContactUsTests">
+        <methods>
+          <include name="cleanUp"/>
+          <include name="initTests"/>
+          <include name="tearDown"/>
+          <include name="contactTest"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- tests.ContactUsTests -->
+    </classes>
+  </test> <!-- Nop Commerce Tests(failed) -->
+</suite> <!-- Failed suite [Nop Commerce Suit] -->

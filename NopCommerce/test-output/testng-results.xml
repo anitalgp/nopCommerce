@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="6" ignored="0" total="10" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Nop Commerce Suit" duration-ms="211413" started-at="2018-09-04T23:36:01Z" finished-at="2018-09-04T23:39:32Z">
+    <groups>
+      <group name="CURRENCY">
+        <method signature="CurrencyTests.currencyDollarTest(java.lang.String)[pri:0, instance:tests.CurrencyTests@464bee09]" name="currencyDollarTest" class="tests.CurrencyTests"/>
+        <method signature="CurrencyTests.currencyEuroTest(java.lang.String)[pri:0, instance:tests.CurrencyTests@464bee09]" name="currencyEuroTest" class="tests.CurrencyTests"/>
+      </group> <!-- CURRENCY -->
+      <group name="ALL">
+        <method signature="CheckoutTests.cashTest(java.lang.String)[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="cashTest" class="tests.CheckoutTests"/>
+        <method signature="CheckoutTests.creditTest(java.lang.String)[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="creditTest" class="tests.CheckoutTests"/>
+        <method signature="CompareTests.cleanListTest(java.lang.String)[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="cleanListTest" class="tests.CompareTests"/>
+        <method signature="CompareTests.compareProductsTest(java.lang.String)[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="compareProductsTest" class="tests.CompareTests"/>
+        <method signature="ContactUsTests.contactTest()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="contactTest" class="tests.ContactUsTests"/>
+        <method signature="CurrencyTests.currencyDollarTest(java.lang.String)[pri:0, instance:tests.CurrencyTests@464bee09]" name="currencyDollarTest" class="tests.CurrencyTests"/>
+        <method signature="CurrencyTests.currencyEuroTest(java.lang.String)[pri:0, instance:tests.CurrencyTests@464bee09]" name="currencyEuroTest" class="tests.CurrencyTests"/>
+        <method signature="WishlistTests.AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.removeWishListTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="removeWishListTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.wishListTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="wishListTest" class="tests.WishlistTests"/>
+      </group> <!-- ALL -->
+      <group name="CONTACT US">
+        <method signature="ContactUsTests.contactTest()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="contactTest" class="tests.ContactUsTests"/>
+      </group> <!-- CONTACT US -->
+      <group name="CHECKOUT">
+        <method signature="CheckoutTests.cashTest(java.lang.String)[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="cashTest" class="tests.CheckoutTests"/>
+        <method signature="CheckoutTests.creditTest(java.lang.String)[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="creditTest" class="tests.CheckoutTests"/>
+        <method signature="WishlistTests.AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+      </group> <!-- CHECKOUT -->
+      <group name="COMPARE">
+        <method signature="CompareTests.cleanListTest(java.lang.String)[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="cleanListTest" class="tests.CompareTests"/>
+        <method signature="CompareTests.compareProductsTest(java.lang.String)[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="compareProductsTest" class="tests.CompareTests"/>
+      </group> <!-- COMPARE -->
+      <group name="WISHLIST">
+        <method signature="WishlistTests.AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.removeWishListTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="removeWishListTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.wishListTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="wishListTest" class="tests.WishlistTests"/>
+      </group> <!-- WISHLIST -->
+    </groups>
+    <test name="Nop Commerce Tests" duration-ms="211413" started-at="2018-09-04T23:36:01Z" finished-at="2018-09-04T23:39:32Z">
+      <class name="tests.CompareTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="setUp" is-config="true" duration-ms="3445" started-at="2018-09-04T23:37:51Z" finished-at="2018-09-04T23:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="initPages" is-config="true" duration-ms="3" started-at="2018-09-04T23:37:55Z" finished-at="2018-09-04T23:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="initTests" is-config="true" duration-ms="5268" started-at="2018-09-04T23:37:55Z" finished-at="2018-09-04T23:38:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="PASS" signature="cleanListTest(java.lang.String)[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="cleanListTest" duration-ms="5367" started-at="2018-09-04T23:38:00Z" data-provider="searchProvider" finished-at="2018-09-04T23:38:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanListTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="cleanUp" is-config="true" duration-ms="533" started-at="2018-09-04T23:38:05Z" finished-at="2018-09-04T23:38:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="initTests" is-config="true" duration-ms="1006" started-at="2018-09-04T23:38:06Z" finished-at="2018-09-04T23:38:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="PASS" signature="compareProductsTest(java.lang.String)[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="compareProductsTest" duration-ms="5526" started-at="2018-09-04T23:38:07Z" data-provider="searchProvider" finished-at="2018-09-04T23:38:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- compareProductsTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="cleanUp" is-config="true" duration-ms="925" started-at="2018-09-04T23:38:12Z" finished-at="2018-09-04T23:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CompareTests@4dfa3a9d]" name="tearDown" is-config="true" duration-ms="36" started-at="2018-09-04T23:38:13Z" finished-at="2018-09-04T23:38:13Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CompareTests -->
+      <class name="tests.ContactUsTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="setUp" is-config="true" duration-ms="4113" started-at="2018-09-04T23:38:13Z" finished-at="2018-09-04T23:38:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="initTests" is-config="true" duration-ms="5911" started-at="2018-09-04T23:38:17Z" finished-at="2018-09-04T23:38:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="contactTest()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="contactTest" duration-ms="2" started-at="2018-09-04T23:38:23Z" finished-at="2018-09-04T23:38:23Z">
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at tests.ContactUsTests.contactTest(ContactUsTests.java:22)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- contactTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="cleanUp" is-config="true" duration-ms="954" started-at="2018-09-04T23:38:23Z" finished-at="2018-09-04T23:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ContactUsTests@6eebc39e]" name="tearDown" is-config="true" duration-ms="35" started-at="2018-09-04T23:38:24Z" finished-at="2018-09-04T23:38:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.ContactUsTests -->
+      <class name="tests.WishlistTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="setUp" is-config="true" duration-ms="4828" started-at="2018-09-04T23:38:51Z" finished-at="2018-09-04T23:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="initPages" is-config="true" duration-ms="2" started-at="2018-09-04T23:38:56Z" finished-at="2018-09-04T23:38:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="initTests" is-config="true" duration-ms="11876" started-at="2018-09-04T23:38:56Z" finished-at="2018-09-04T23:39:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="AddShoppingCartTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="AddShoppingCartTest" duration-ms="7917" started-at="2018-09-04T23:39:08Z" data-provider="searchProvider" finished-at="2018-09-04T23:39:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at tests.WishlistTests.AddShoppingCartTest(WishlistTests.java:133)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AddShoppingCartTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="cleanUp" is-config="true" duration-ms="729" started-at="2018-09-04T23:39:16Z" finished-at="2018-09-04T23:39:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="initTests" is-config="true" duration-ms="2037" started-at="2018-09-04T23:39:16Z" finished-at="2018-09-04T23:39:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="removeWishListTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="removeWishListTest" duration-ms="5758" started-at="2018-09-04T23:39:18Z" data-provider="searchProvider" finished-at="2018-09-04T23:39:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The wishlist is empty!] but found [Remove Add to cart SKU Image Product(s) Price Qty. Total
+LT_MIR_DC Leica T Mirrorless Digital Camera $530.00 $530.00
+Your wishlist URL for sharing:
+http://demo.nopcommerce.com/wishlist/8f620e72-b31d-4f45-80d2-2b3f374631ea]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The wishlist is empty!] but found [Remove Add to cart SKU Image Product(s) Price Qty. Total
+LT_MIR_DC Leica T Mirrorless Digital Camera $530.00 $530.00
+Your wishlist URL for sharing:
+http://demo.nopcommerce.com/wishlist/8f620e72-b31d-4f45-80d2-2b3f374631ea]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at tests.WishlistTests.removeWishListTest(WishlistTests.java:99)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishListTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="cleanUp" is-config="true" duration-ms="712" started-at="2018-09-04T23:39:24Z" finished-at="2018-09-04T23:39:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="initTests" is-config="true" duration-ms="1844" started-at="2018-09-04T23:39:25Z" finished-at="2018-09-04T23:39:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="PASS" signature="wishListTest(java.lang.String)[pri:0, instance:tests.WishlistTests@f6c48ac]" name="wishListTest" duration-ms="4623" started-at="2018-09-04T23:39:27Z" data-provider="searchProvider" finished-at="2018-09-04T23:39:31Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="cleanUp" is-config="true" duration-ms="630" started-at="2018-09-04T23:39:31Z" finished-at="2018-09-04T23:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WishlistTests@f6c48ac]" name="tearDown" is-config="true" duration-ms="45" started-at="2018-09-04T23:39:32Z" finished-at="2018-09-04T23:39:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.WishlistTests -->
+      <class name="tests.CurrencyTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.CurrencyTests@464bee09]" name="setUp" is-config="true" duration-ms="8465" started-at="2018-09-04T23:38:24Z" finished-at="2018-09-04T23:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.CurrencyTests@464bee09]" name="initPages" is-config="true" duration-ms="3" started-at="2018-09-04T23:38:33Z" finished-at="2018-09-04T23:38:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.CurrencyTests@464bee09]" name="initTests" is-config="true" duration-ms="12253" started-at="2018-09-04T23:38:33Z" finished-at="2018-09-04T23:38:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="PASS" signature="currencyDollarTest(java.lang.String)[pri:0, instance:tests.CurrencyTests@464bee09]" name="currencyDollarTest" duration-ms="469" started-at="2018-09-04T23:38:45Z" data-provider="searchProvider" finished-at="2018-09-04T23:38:45Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencyDollarTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.CurrencyTests@464bee09]" name="cleanUp" is-config="true" duration-ms="1320" started-at="2018-09-04T23:38:45Z" finished-at="2018-09-04T23:38:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.CurrencyTests@464bee09]" name="initTests" is-config="true" duration-ms="1520" started-at="2018-09-04T23:38:47Z" finished-at="2018-09-04T23:38:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="currencyEuroTest(java.lang.String)[pri:0, instance:tests.CurrencyTests@464bee09]" name="currencyEuroTest" duration-ms="2038" started-at="2018-09-04T23:38:48Z" data-provider="searchProvider" finished-at="2018-09-04T23:38:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [true] but found [false]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [true] but found [false]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertTrue(Assert.java:44)
+at org.testng.Assert.assertTrue(Assert.java:54)
+at tests.CurrencyTests.currencyEuroTest(CurrencyTests.java:45)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- currencyEuroTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.CurrencyTests@464bee09]" name="cleanUp" is-config="true" duration-ms="612" started-at="2018-09-04T23:38:50Z" finished-at="2018-09-04T23:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CurrencyTests@464bee09]" name="tearDown" is-config="true" duration-ms="42" started-at="2018-09-04T23:38:51Z" finished-at="2018-09-04T23:38:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CurrencyTests -->
+      <class name="tests.CheckoutTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="setUp" is-config="true" duration-ms="11617" started-at="2018-09-04T23:36:01Z" finished-at="2018-09-04T23:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="initPages" is-config="true" duration-ms="110" started-at="2018-09-04T23:36:12Z" finished-at="2018-09-04T23:36:12Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="initTests" is-config="true" duration-ms="3102" started-at="2018-09-04T23:36:12Z" finished-at="2018-09-04T23:36:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="cashTest(java.lang.String)[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="cashTest" duration-ms="49335" started-at="2018-09-04T23:36:15Z" data-provider="searchProvider" finished-at="2018-09-04T23:37:05Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li:nth-child(1) div.payment-details label' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li:nth-child(1) div.payment-details label' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at pages.CheckoutPage.getTextCashMethod(CheckoutPage.java:135)
+at tests.CheckoutTests.cashTest(CheckoutTests.java:102)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"li:nth-child(1) div.payment-details label"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'USUARIO-PC', ip: '192.168.1.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Usuario\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 8a6aaff9d2093ee667f5a60cd68e08a2
+*** Element info: {Using=css selector, value=li:nth-child(1) div.payment-details label}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cashTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="cleanUp" is-config="true" duration-ms="917" started-at="2018-09-04T23:37:05Z" finished-at="2018-09-04T23:37:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="initTests" is-config="true" duration-ms="1471" started-at="2018-09-04T23:37:06Z" finished-at="2018-09-04T23:37:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="creditTest(java.lang.String)[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="creditTest" duration-ms="42911" started-at="2018-09-04T23:37:07Z" data-provider="searchProvider" finished-at="2018-09-04T23:37:50Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Digital]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.TimeoutException">
+            <message>
+              <![CDATA[Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li:nth-child(2) div.payment-details label' (tried for 15 second(s) with 500 milliseconds interval)]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of Proxy element for: DefaultElementLocator 'By.cssSelector: li:nth-child(2) div.payment-details label' (tried for 15 second(s) with 500 milliseconds interval)
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:113)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:283)
+at pages.CheckoutPage.getTextCreditMethod(CheckoutPage.java:278)
+at tests.CheckoutTests.creditTest(CheckoutTests.java:189)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+Caused by: org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"css selector","selector":"li:nth-child(2) div.payment-details label"}
+  (Session info: chrome=68.0.3440.106)
+  (Driver info: chromedriver=2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e),platform=Windows NT 6.1.7601 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 0 milliseconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:05:20.749Z'
+System info: host: 'USUARIO-PC', ip: '192.168.1.51', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_144'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.41.578737 (49da6702b16031..., userDataDir: C:\Users\Usuario\AppData\Lo...}, cssSelectorsEnabled: true, databaseEnabled: false, goog:chromeOptions: {debuggerAddress: localhost:50486}, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 68.0.3440.106, webStorageEnabled: true}
+Session ID: 8a6aaff9d2093ee667f5a60cd68e08a2
+*** Element info: {Using=css selector, value=li:nth-child(2) div.payment-details label}
+at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
+at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:322)
+at org.openqa.selenium.remote.RemoteWebDriver.findElementByCssSelector(RemoteWebDriver.java:416)
+at org.openqa.selenium.By$ByCssSelector.findElement(By.java:431)
+at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:314)
+at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:69)
+at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:38)
+at com.sun.proxy.$Proxy11.isDisplayed(Unknown Source)
+at org.openqa.selenium.support.ui.ExpectedConditions.elementIfVisible(ExpectedConditions.java:315)
+at org.openqa.selenium.support.ui.ExpectedConditions.access$100(ExpectedConditions.java:44)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:301)
+at org.openqa.selenium.support.ui.ExpectedConditions$10.apply(ExpectedConditions.java:298)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:260)
+... 27 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- creditTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="cleanUp" is-config="true" duration-ms="862" started-at="2018-09-04T23:37:50Z" finished-at="2018-09-04T23:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.CheckoutTests@146ba0ac]" name="tearDown" is-config="true" duration-ms="79" started-at="2018-09-04T23:37:51Z" finished-at="2018-09-04T23:37:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.CheckoutTests -->
+    </test> <!-- Nop Commerce Tests -->
+  </suite> <!-- Nop Commerce Suit -->
+</testng-results>
