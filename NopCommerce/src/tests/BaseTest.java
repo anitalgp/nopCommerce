@@ -35,8 +35,9 @@ public class BaseTest {
 	}
 	
 	@BeforeMethod(alwaysRun = true)
-	public void init() {
-		driver.get(BASE_URL);
+	public void initTests() {
+		basePage= new BasePage(driver);
+		basePage.init();
 	}
 	
 	@AfterMethod(alwaysRun = true)

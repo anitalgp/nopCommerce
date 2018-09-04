@@ -11,8 +11,9 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BasePage {
 
+	public static final String BASE_URL = "http://demo.nopcommerce.com/";
+	
 	protected WebDriverWait customWait;
-
 	protected WebDriver driver;
 
 	@FindBy(how = How.XPATH, using = "//*[@id=\"small-searchterms\"]")
@@ -35,6 +36,17 @@ public class BasePage {
 	
 	@FindBy(how = How.CSS, using = "div.page-title h1")
 	private WebElement titlePage;
+	
+	public BasePage(WebDriver driver) {
+
+		this.driver = driver;
+		PageFactory.initElements(driver, this);
+		this.customWait = new WebDriverWait(driver, 15);
+	}
+	
+	public void init() {
+		driver.get(BASE_URL);
+	}
 	
 	public void productSearch(String product) {
 		customWait.until(ExpectedConditions.elementToBeClickable(searchStore));
@@ -69,8 +81,6 @@ public class BasePage {
 		
 		JavascriptExecutor ex = (JavascriptExecutor) driver;
 		ex.executeScript("arguments[0].click();", notificationMessage);
-//		customWait.until(ExpectedConditions.elementToBeClickable(notificationMessage));
-//		notificationMessage.click();
 	}
 	
 	public String getTitlePage() {
@@ -78,11 +88,6 @@ public class BasePage {
 		return titlePage.getText();
 	}
 
-	public BasePage(WebDriver driver) {
 
-		this.driver = driver;
-		PageFactory.initElements(driver, this);
-		this.customWait = new WebDriverWait(driver, 15);
-	}
 
 }
