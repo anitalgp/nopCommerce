@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Nop Commerce Suit">
+	<test name="Nop Commerce Tests">
+		<groups>
+			<run>
+				<include name="ALL" />
+				<!-- <include name="CHECKOUT" /> -->
+				<!-- <include name="COMPARE" /> -->
+				<!-- <include name="CONTACT US" /> -->
+				<!-- <include name="CURRENCY" /> -->
+				<!-- <include name="WISHLIST" /> -->
+			</run>
+		</groups>
+
+		<packages>
+			<package name="tests.*"></package>
+		</packages>
+
+	</test>
+</suite>
