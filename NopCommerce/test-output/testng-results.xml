@@ -1,43 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+<testng-results skipped="0" failed="1" ignored="0" total="3" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15302" started-at="2018-09-05T01:15:40Z" finished-at="2018-09-05T01:15:56Z">
+  <suite name="Default suite" duration-ms="34500" started-at="2018-09-05T02:01:21Z" finished-at="2018-09-05T02:01:55Z">
     <groups>
       <group name="ALL">
-        <method signature="ContactUsTests.contactTest()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="contactTest" class="tests.ContactUsTests"/>
+        <method signature="WishlistTests.AddShoppingCartTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.removeWishListTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="removeWishListTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.wishListTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="wishListTest" class="tests.WishlistTests"/>
       </group> <!-- ALL -->
-      <group name="CONTACT US">
-        <method signature="ContactUsTests.contactTest()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="contactTest" class="tests.ContactUsTests"/>
-      </group> <!-- CONTACT US -->
+      <group name="CHECKOUT">
+        <method signature="WishlistTests.AddShoppingCartTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+      </group> <!-- CHECKOUT -->
+      <group name="WISHLIST">
+        <method signature="WishlistTests.AddShoppingCartTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="AddShoppingCartTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.removeWishListTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="removeWishListTest" class="tests.WishlistTests"/>
+        <method signature="WishlistTests.wishListTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="wishListTest" class="tests.WishlistTests"/>
+      </group> <!-- WISHLIST -->
     </groups>
-    <test name="Default test" duration-ms="15302" started-at="2018-09-05T01:15:40Z" finished-at="2018-09-05T01:15:56Z">
-      <class name="tests.ContactUsTests">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="setUp" is-config="true" duration-ms="4243" started-at="2018-09-05T01:15:41Z" finished-at="2018-09-05T01:15:45Z">
+    <test name="Default test" duration-ms="34500" started-at="2018-09-05T02:01:21Z" finished-at="2018-09-05T02:01:55Z">
+      <class name="tests.WishlistTests">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="setUp" is-config="true" duration-ms="4979" started-at="2018-09-05T02:01:21Z" finished-at="2018-09-05T02:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="initPages" is-config="true" duration-ms="51" started-at="2018-09-05T01:15:45Z" finished-at="2018-09-05T01:15:45Z">
+        <test-method status="PASS" signature="initPages()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="initPages" is-config="true" duration-ms="84" started-at="2018-09-05T02:01:26Z" finished-at="2018-09-05T02:01:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPages -->
-        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="initTests" is-config="true" duration-ms="5806" started-at="2018-09-05T01:15:45Z" finished-at="2018-09-05T01:15:51Z">
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="initTests" is-config="true" duration-ms="5461" started-at="2018-09-05T02:01:26Z" finished-at="2018-09-05T02:01:31Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initTests -->
-        <test-method status="PASS" signature="contactTest()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="contactTest" duration-ms="4128" started-at="2018-09-05T01:15:51Z" finished-at="2018-09-05T01:15:55Z">
+        <test-method status="PASS" signature="AddShoppingCartTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="AddShoppingCartTest" duration-ms="8191" started-at="2018-09-05T02:01:31Z" finished-at="2018-09-05T02:01:40Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- contactTest -->
-        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="cleanUp" is-config="true" duration-ms="1002" started-at="2018-09-05T01:15:55Z" finished-at="2018-09-05T01:15:56Z">
+        </test-method> <!-- AddShoppingCartTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="cleanUp" is-config="true" duration-ms="791" started-at="2018-09-05T02:01:40Z" finished-at="2018-09-05T02:01:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- cleanUp -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.ContactUsTests@604ed9f0]" name="tearDown" is-config="true" duration-ms="53" started-at="2018-09-05T01:15:56Z" finished-at="2018-09-05T01:15:56Z">
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="initTests" is-config="true" duration-ms="1336" started-at="2018-09-05T02:01:40Z" finished-at="2018-09-05T02:01:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="FAIL" signature="removeWishListTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="removeWishListTest" duration-ms="5569" started-at="2018-09-05T02:01:42Z" finished-at="2018-09-05T02:01:47Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[expected [The wishlist is empty!] but found [Remove Add to cart SKU Image Product(s) Price Qty. Total
+LT_MIR_DC Leica T Mirrorless Digital Camera $530.00 $530.00
+Your wishlist URL for sharing:
+http://demo.nopcommerce.com/wishlist/59fdae20-52c5-4203-91eb-f679ab48832c]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: expected [The wishlist is empty!] but found [Remove Add to cart SKU Image Product(s) Price Qty. Total
+LT_MIR_DC Leica T Mirrorless Digital Camera $530.00 $530.00
+Your wishlist URL for sharing:
+http://demo.nopcommerce.com/wishlist/59fdae20-52c5-4203-91eb-f679ab48832c]
+at org.testng.Assert.fail(Assert.java:96)
+at org.testng.Assert.failNotEquals(Assert.java:776)
+at org.testng.Assert.assertEqualsImpl(Assert.java:137)
+at org.testng.Assert.assertEquals(Assert.java:118)
+at org.testng.Assert.assertEquals(Assert.java:453)
+at org.testng.Assert.assertEquals(Assert.java:463)
+at tests.WishlistTests.removeWishListTest(WishlistTests.java:100)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.lang.reflect.Method.invoke(Method.java:498)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at org.testng.TestRunner.privateRun(TestRunner.java:648)
+at org.testng.TestRunner.run(TestRunner.java:505)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+at org.testng.TestNG.runSuites(TestNG.java:1049)
+at org.testng.TestNG.run(TestNG.java:1017)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- removeWishListTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="cleanUp" is-config="true" duration-ms="801" started-at="2018-09-05T02:01:47Z" finished-at="2018-09-05T02:01:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="initTests()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="initTests" is-config="true" duration-ms="1475" started-at="2018-09-05T02:01:48Z" finished-at="2018-09-05T02:01:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initTests -->
+        <test-method status="PASS" signature="wishListTest()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="wishListTest" duration-ms="5020" started-at="2018-09-05T02:01:50Z" finished-at="2018-09-05T02:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListTest -->
+        <test-method status="PASS" signature="cleanUp()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="cleanUp" is-config="true" duration-ms="710" started-at="2018-09-05T02:01:55Z" finished-at="2018-09-05T02:01:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.WishlistTests@604ed9f0]" name="tearDown" is-config="true" duration-ms="53" started-at="2018-09-05T02:01:55Z" finished-at="2018-09-05T02:01:55Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- tests.ContactUsTests -->
+      </class> <!-- tests.WishlistTests -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

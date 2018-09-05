@@ -38,7 +38,7 @@ public class WishlistTests extends BaseTest {
 																		// exitosa.
 		wishlistPage.clickAddFirstWishlist();
 
-		wishlistPage.closeNotification();	
+		wishlistPage.closeNotification();
 		wishlistPage.clickAddSecondWishlist();
 
 		assertEquals(wishlistPage.getTextNotifications(), WISHLIST_MIN); // Verifico que el mensaje de la notificacion
@@ -70,20 +70,20 @@ public class WishlistTests extends BaseTest {
 		wishlistPage.clickSearch();
 
 		assertTrue(wishlistPage.getElementText().contains(PRODUCT)); // Tomo la palabra del producto que utilice
- 								// para buscar y
-									// la comparo con el nombre del elemento que
-									// dio como resultado
-									// para verifcar que la busqueda haya sido
-									// exitosa.
+		// para buscar y
+		// la comparo con el nombre del elemento que
+		// dio como resultado
+		// para verifcar que la busqueda haya sido
+		// exitosa.
 		wishlistPage.clickAddFirstWishlist();
 
-		wishlistPage.closeNotification();	
+		wishlistPage.closeNotification();
 		wishlistPage.clickAddSecondWishlist();
-		
+
 		assertEquals(wishlistPage.getTextNotifications(), WISHLIST_MIN); // Verifico que el mensaje de la notificacion
-																		// sea
-																		// el adecuado.
-		
+																			// sea
+																			// el adecuado.
+
 		wishlistPage.clickNotifcationSuccessful();
 
 		assertEquals(wishlistPage.getTitlePage(), WISHLIST_MAY); // Verifico que el titulo de la pagina sea correcto y
@@ -139,5 +139,6 @@ public class WishlistTests extends BaseTest {
 	@BeforeClass(alwaysRun = true)
 	public void initPages() {
 		wishlistPage = new WishlistPage(driver);
+		checkoutPage = new CheckoutPage(driver);
 	}
 }
