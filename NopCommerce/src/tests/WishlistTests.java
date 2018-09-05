@@ -20,7 +20,7 @@ public class WishlistTests extends BaseTest {
 	private static final String MESSAGE_EMPTY = "The wishlist is empty!";
 	private static final String TITLE_SHOPPING = "Shopping cart";
 
-	@Test(dataProvider = "searchProvider", dataProviderClass = DataProviders.class, groups = { "ALL", "WISHLIST" })
+	@Test(groups = { "ALL", "WISHLIST" })
 	public void wishListTest(String product) {
 
 		assertTrue(wishlistPage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina

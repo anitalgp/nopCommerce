@@ -17,7 +17,7 @@ public class CompareTests extends BaseTest {
 	private static final String TITLE_COMPARE_PRODUCTS = "Compare products";
 	private static final String TEXT_EMPTY = "You have no items to compare.";
 
-	@Test(dataProvider = "searchProvider", dataProviderClass = DataProviders.class, groups = { "ALL", "COMPARE" })
+	@Test(groups = { "ALL", "COMPARE" })
 	public void compareProductsTest(String product) {
 
 		assertTrue(comparePage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina

@@ -20,7 +20,7 @@ public class CurrencyTests extends BaseTest {
 		homePage = new HomePage(driver);
 	}
 
-	@Test(dataProvider = "searchProvider", dataProviderClass = DataProviders.class, groups = { "ALL", "CURRENCY" })
+	@Test(groups = { "ALL", "CURRENCY" })
 	public void currencyDollarTest(String product) {
 
 		assertTrue(homePage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
