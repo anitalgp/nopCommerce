@@ -21,7 +21,7 @@ public class CurrencyTests extends BaseTest {
 	}
 
 	@Test(groups = { "ALL", "CURRENCY" })
-	public void currencyDollarTest(String product) {
+	public void currencyDollarTest() {
 
 		assertTrue(homePage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
 											// inicial.
@@ -33,8 +33,8 @@ public class CurrencyTests extends BaseTest {
 																		// del primer producto que arroja la busqueda.
 	}
 
-	@Test(dataProvider = "searchProvider", dataProviderClass = DataProviders.class, groups = { "ALL", "CURRENCY" })
-	public void currencyEuroTest(String product) {
+	@Test(groups = { "ALL", "CURRENCY" })
+	public void currencyEuroTest() {
 
 		assertTrue(homePage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
 											// inicial.
