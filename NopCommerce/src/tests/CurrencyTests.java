@@ -21,29 +21,24 @@ public class CurrencyTests extends BaseTest {
 	}
 
 	@Test(groups = { "ALL", "CURRENCY" })
-	public void currencyDollarTest() {
+	public void changeCurrencyTest() {
 
 		assertTrue(homePage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
-											// inicial.
+										// inicial.
 		homePage.clickCurrencyForm();
 		assertTrue(homePage.currencyVisibility()); // Verifico que se encuentre efectivamente visible
-														// el boton del Currency antes de utilizarlo.
+													// el boton del Currency antes de utilizarlo.
 		homePage.selectDollarCurrency();
 		assertTrue(homePage.getProductPrice().contains(DOLLAR)); // al tomar los valores de los filtros del precio y
-																		// del primer producto que arroja la busqueda.
-	}
-
-	@Test(groups = { "ALL", "CURRENCY" })
-	public void currencyEuroTest() {
-
+																	// del primer producto que arroja la busqueda.
 		assertTrue(homePage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
-											// inicial.
+										// inicial.
 		homePage.clickCurrencyForm();
 		assertTrue(homePage.currencyVisibility()); // Verifico que se encuentre efectivamente visible
-														// el boton del Currency antes de utilizarlo.
+													// el boton del Currency antes de utilizarlo.
 		homePage.selectEuroCurrency();
 		assertTrue(homePage.getProductPrice().contains(EURO)); // al tomar los valores de los filtros del precio y
-																	// del primer producto que arroja la busqueda.
+																// del primer producto que arroja la busqueda.
 
 	}
 
