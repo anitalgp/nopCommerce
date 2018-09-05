@@ -15,21 +15,22 @@ public class WishlistTests extends BaseTest {
 	private WishlistPage wishlistPage;
 	private CheckoutPage checkoutPage;
 
+	private static final String PRODUCT = "Digital";
 	private static final String WISHLIST_MAY = "Wishlist";
 	private static final String WISHLIST_MIN = "wishlist";
 	private static final String MESSAGE_EMPTY = "The wishlist is empty!";
 	private static final String TITLE_SHOPPING = "Shopping cart";
 
 	@Test(groups = { "ALL", "WISHLIST" })
-	public void wishListTest(String product) {
+	public void wishListTest() {
 
 		assertTrue(wishlistPage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
 											// inicial.
 
-		wishlistPage.productSearch(product);
+		wishlistPage.productSearch(PRODUCT);
 		wishlistPage.clickSearch();
 
-		assertTrue(wishlistPage.getElementText().contains(product)); // Tomo la palabra del producto que utilice
+		assertTrue(wishlistPage.getElementText().contains(PRODUCT)); // Tomo la palabra del producto que utilice
 																		// para buscar y
 																		// la comparo con el nombre del elemento que
 																		// dio como resultado
@@ -50,7 +51,7 @@ public class WishlistTests extends BaseTest {
 																	// el test se encuentre en la pagina correcta antes
 																	// de seguir.
 
-		assertTrue(wishlistPage.getProductText().contains(product)); // Tomo la palabra del producto que utilice
+		assertTrue(wishlistPage.getProductText().contains(PRODUCT)); // Tomo la palabra del producto que utilice
 																		// para buscar y
 																		// la comparo con el nombre del elemento que
 																		// dio como resultado
@@ -59,16 +60,16 @@ public class WishlistTests extends BaseTest {
 
 	}
 
-	@Test(dataProvider = "searchProvider", dataProviderClass = DataProviders.class, groups = { "ALL", "WISHLIST" })
-	public void removeWishListTest(String product) {
+	@Test(groups = { "ALL", "WISHLIST" })
+	public void removeWishListTest() {
 
 		assertTrue(wishlistPage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
 		// inicial.
 
-		wishlistPage.productSearch(product);
+		wishlistPage.productSearch(PRODUCT);
 		wishlistPage.clickSearch();
 
-		assertTrue(wishlistPage.getElementText().contains(product)); // Tomo la palabra del producto que utilice
+		assertTrue(wishlistPage.getElementText().contains(PRODUCT)); // Tomo la palabra del producto que utilice
  								// para buscar y
 									// la comparo con el nombre del elemento que
 									// dio como resultado
@@ -100,17 +101,16 @@ public class WishlistTests extends BaseTest {
 																	// efectivamente vacia.
 	}
 
-	@Test(dataProvider = "searchProvider", dataProviderClass = DataProviders.class, groups = { "ALL", "WISHLIST",
-			"CHECKOUT" })
-	public void AddShoppingCartTest(String product) {
+	@Test(groups = { "ALL", "WISHLIST", "CHECKOUT" })
+	public void AddShoppingCartTest() {
 
 		assertTrue(wishlistPage.getLogo()); // Verifico que el logo de la empresa se encuentre desplegado en la pagina
 											// inicial.
 
-		wishlistPage.productSearch(product);
+		wishlistPage.productSearch(PRODUCT);
 		wishlistPage.clickSearch();
 
-		assertTrue(wishlistPage.getElementText().contains(product)); // Tomo la palabra del producto que utilice
+		assertTrue(wishlistPage.getElementText().contains(PRODUCT)); // Tomo la palabra del producto que utilice
 																		// para buscar y
 																		// la comparo con el nombre del elemento que
 																		// dio como resultado
